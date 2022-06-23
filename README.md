@@ -1,9 +1,9 @@
 # PythonAutomatizacionEbay
-# Verificar Registro de nuevo usuario de Ebay
-# prerequisitos
+## Verificar Registro de nuevo usuario de Ebay
+## prerequisitos
 - tener un navegador (ej: chrome. firefox, etc)
 - tener acceso a internet
-# requisitos
+## requisitos
 - tener instalado pandas
 - tener instalado pip
 - tener instalado 
