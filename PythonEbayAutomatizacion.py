@@ -24,7 +24,7 @@ WebDriverWait(driver, 5) \
 WebDriverWait(driver, 5) \
         .until(EC.element_to_be_clickable((By.NAME,
                                            'lastname'))) \
-        .send_keys('perez')
+        .send_keys('cardozo')
 
 WebDriverWait(driver, 5) \
         .until(EC.element_to_be_clickable((By.NAME,
@@ -37,8 +37,8 @@ WebDriverWait(driver, 5) \
     .send_keys('Pa$$w0rd')
 
 WebDriverWait(driver, 10)\
-    .until(EC.element_to_be_clickable((By.NAME, 'commit'.replace(
-                                               ' ', '.')))) \
+    .until(EC.element_to_be_clickable((By.NAME,
+                                         'EMAIL_REG_FORM_SUBMIT' ))) \
     .click()
 
 time.sleep(20)
