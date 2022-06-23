@@ -12,9 +12,7 @@ options.add_argument('--disable-extensions')
 driver_path = 'C:\\ChromeDriver\\chromedriver.exe'
 driver = webdriver.Chrome(driver_path, chrome_options=options)
 
-driver.set_window_position(2000, 0)
-driver.maximize_window()
-time.sleep(2)
+
 
 driver.get('https://signup.ebay.com/pa/crte?siteid=0&co_partnerId=0&UsingSSL=1&rv4=1&signInUrl=https%3A%2F%2Fwww.ebay.com%2Fsignin%3Fsgn%3Dreg%26siteid%3D0%26co_partnerId%3D0%26UsingSSL%3D1%26rv4%3D1')
 
